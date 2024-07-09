@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Form</h1>
+
+        <h2>Links Generator</h2>
+
+        <form id="myForm" action="" method="post" onsubmit="return diplayTable()">
+            <div>
+                <label>Start Range</label>
+                <input type="text" id="start" name="start" >
+            </div>
+
+            <div>
+                <label>End Range</label>
+                <input type="text" id="end" name="end" >
+            </div>
+
+            <button id="button">Display Table</button>
+    
+            
+        </form>
+
+        <script>
+
+                const button = document.querySelectorAll(".button");
+
+                button.addEventListener("click", diplayTable);
+
+            function diplayTable(){
+                let data = ["syllabus","p1.html", "p2.html","style.html","email.html","system.html","process.html"];
+
+                const start = document.getElementById("start");
+                const end = document.getElementById("end");
+               
+                
+
+
+            }
+        </script>
+    </body>
+</html>
